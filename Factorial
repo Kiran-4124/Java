@@ -1,0 +1,42 @@
+package M1;
+
+import java.util.*;
+
+public class fact {
+
+	public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+
+	int n,i=1,fact=1;
+
+	System.out.print("Enter a number: ");
+
+	n = sc.nextInt();
+
+	  if (n< 0) {
+
+          System.out.println("Factorial is only defined for positive number numbers.");
+
+      } else 
+
+      {
+
+    	  while(i<=n)
+
+    	  {
+
+    		 fact*=i; 
+
+    		 i++;
+
+    	  }
+
+      }
+
+	  System.out.println("Factorial:" +fact);
+
+	}
+
+	}
+
